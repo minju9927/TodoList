@@ -1,0 +1,59 @@
+.TodoList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.TodoList>input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 15px 0px;
+}
+
+.TodoList>input:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(37, 147, 255);
+}
+
+.TodoList .todos_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.TodoItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.TodoItem input {
+    width: 20px;
+}
+
+.TodoItem .content {
+    flex: 1;
+}
+
+.TodoItem .date {
+    font-size: 14px;
+    color: gray;
+}
+
+.TodoItem button {
+    cursor: pointer;
+    color: gray;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.TodoItem.check .content {
+    text-decoration: line-through;
+    color: #ccc;
+
+}
