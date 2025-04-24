@@ -2,8 +2,8 @@
   "name": "todo-list",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://minju9927.github.io/TodoList",
   "dependencies": {
-    "homepage": "https://minju9927.github.io/TodoList",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
